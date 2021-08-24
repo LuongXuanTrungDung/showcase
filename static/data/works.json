@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Hệ thống server và CSDL - VNA Education",
+    "image": "vna-education.png",
+    "tags": [
+      "CSDL",
+      "Giáo dục",
+	"NestJS",
+ "MongoDB"
+    ],
+    "text": "Hệ thống giám sát chất lượng giảng dạy của giáo viên, dựa trên đánh giá của học sinh."
+  },
+{
+	    "title": "Thiết kế front-end - Mentor",
+    "image": "mentor.png",
+    "tags": [
+      "Front-end",
+      "Angular"
+    ],
+"text": "Web thương mại về dịch vụ giáo dục, trọng tâm là tính năng làm quiz. Thiết kế dựa trên template cùng tên."
+}
+]
