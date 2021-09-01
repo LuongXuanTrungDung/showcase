@@ -1,11 +1,9 @@
 {
   "name": "showcase",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Website cá nhân, dùng cho GitHub Page",
-  "main": "index.js",
   "repository": "https://github.com/LuongXuanTrungDung/showcase.git",
   "author": "LuongXuanTrungDung <luongxuantrungdung211@gmail.com>",
-  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "nuxt",
