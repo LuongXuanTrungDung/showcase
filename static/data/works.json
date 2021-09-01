@@ -3,9 +3,7 @@
     "title": "Hệ thống server và CSDL - VNA Education",
     "image": "vna-education.png",
     "tags": [
-      "CSDL",
-      "Giáo dục",
-	"NestJS",
+	"NestJS", "NodeJS",
  "MongoDB"
     ],
     "text": "Hệ thống giám sát chất lượng giảng dạy của giáo viên, dựa trên đánh giá của học sinh."
@@ -14,9 +12,18 @@
 	    "title": "Thiết kế front-end - Mentor",
     "image": "mentor.png",
     "tags": [
-      "Front-end",
-      "Angular"
+      "NodeJS",
+      "Angular", "Dịch vụ"
     ],
 "text": "Web thương mại về dịch vụ giáo dục, trọng tâm là tính năng làm quiz. Thiết kế dựa trên template cùng tên."
+},
+  {
+	    "title": "Thiết kế front-end và server - Mâm xôi đỏ",
+    "image": "mam-xoi-do.png",
+    "tags": [
+      "PHP",
+      "JQuery", "Bán hàng"
+    ],
+    "text": "Web bán hàng của 1 tiệm bánh ngọt với các chức năng bán hàng và quản trị. Thiết kế nguyên bản, sử dụng Bootstrap."
 }
 ]
