@@ -1,159 +1,60 @@
 <template>
   <main>
-    <section class="px-8 py-32">
-      <h1 class="text-2xl text-center">Xin chào, tôi tên là Dũng</h1>
-      <div class="h-px w-1/12 bg-primary mt-3 mb-12 mx-auto"></div>
-      <div class="flex items-center">
-        <div class="flex-initials flex flex-col w-1/3 items-end">
-          <Emblem
-            class="flex-initials mb-3"
-            symbol="fas fa-palette"
-            text="Thiết kế giao diện (UI)"
-            :left="false"
-          />
-          <Emblem
-            class="flex-initials my-3"
-            symbol="fas fa-vr-cardboard"
-            text="Xây dựng trải nghiệm (UX)"
-            :left="false"
-          />
-          <Emblem
-            class="flex-initials mt-3"
-            symbol="fas fa-search-plus"
-            text="Tối ưu hóa tìm kiếm (SEO)"
-            :left="false"
-          />
+    <section class="px-8 pt-10 pb-5">
+      <div class="flex pb-4">
+        <div class="flex flex-col justify-center flex-initials mr-4">
+          <h1 class="text-4xl font-bold">Xin chào, tôi là Dũng</h1>
+          <div class="h-1 bg-complement w-1/4 mt-2 ml-auto"></div>
         </div>
-        <div
-          class="
-            flex flex-col
-            text-center
-            flex-initials
-            w-1/3
-            items-center
-            justify-center
-          "
-        >
-          <img src="portrait.jpg" alt="" class="w-24 h-24" />
-          <h2 class="text-xl">Lương Xuân Trung Dũng</h2>
-          <small>Full-stack developer</small>
-        </div>
-        <div class="flex flex-col flex-initials w-1/3 items-start">
-          <Emblem
-            class="flex-initials mb-3"
-            symbol="fas fa-database"
-            text="Thiết kế cơ sở dữ liệu (DB)"
-          />
-          <Emblem
-            class="flex-initials my-3"
-            symbol="fas fa-server"
-            text="Xây dựng server"
-          />
-          <Emblem
-            class="flex-initials mt-3"
-            symbol="fas fa-lock"
-            text="Thiết kế bảo mật"
-          />
-        </div>
+        <img
+          src="portrait.jpg"
+          class="w-24 h-24 rounded-full flex-initials ml-4"
+        />
+      </div>
+      <p class="py-4 text-justify text-lg">
+        Nhà phát triển web full-stack đến từ Thành phố Hồ Chí Minh, Việt Nam,
+        với mong muốn tạo ra các sản phẩm được thiết kế khoa học và có tính nghệ
+        thuật, để mang đến những trải nghiệm tiện lợi và hữu ích nhất cho người
+        sử dụng.
+      </p>
+      <h3 class="font-bold text-xl">Các đối tác của tôi</h3>
+      <div class="h-1 bg-primary w-1/6 my-2 mb-6"></div>
+      <div class="w-full flex pt-4 ">
+        <img
+          v-for="(p, index) in partners"
+          :key="index"
+          :src="`partners/${p}`"
+          class="flex-initials h-16 filter grayscale"
+          :class="index === 0 ? 'pr-4' : 'px-4'"
+        />
       </div>
     </section>
-    <section class="px-8 py-16 bg-light">
-      <h1 class="text-2xl text-center">Những gì tôi làm được</h1>
-      <div class="h-px w-1/12 bg-primary mt-3 mb-12 mx-auto"></div>
-      <div class="flex">
+    <section class="py-5">
+      <h3 class="font-bold text-xl ml-8">Những gì tôi làm được</h3>
+      <div class="h-1 bg-primary w-1/6 ml-8 mt-2 mb-6"></div>
+      <div
+        class="bg-light w-full grid gap-8 px-8 py-8"
+        :class="`grid-cols-${works.length} grid-rows-${toArrange(works)}`"
+      >
         <Card
           v-for="(w, index) in works"
           :key="index"
           :image="w.image"
-          :title="w.title"
-          :text="w.text"
           :tags="w.tags"
-          class="mx-4 bg-white"
+          :text="w.text"
+          :title="w.title"
         />
-      </div>
-      <div class="my-8 flex items-center justify-center">
-        <a
-          href=""
-          class="
-            bg-dark
-            flex-initials
-            text-white text-center
-            font-bold
-            py-2
-            px-4
-          "
-          >Tất cả >></a
-        >
+        <div class="bg-complement text-white rounded-md" :class="works.length %3 === 0 ? `col-span-${works.length}`: ''"><p class="py-2 flex justify-center">Và sẽ còn nhiều hơn thế nữa</p></div>
       </div>
     </section>
-    <section class="px-8 py-16">
-      <h1 class="text-2xl text-center">Liên lạc với tôi qua email</h1>
-      <div class="h-px w-1/12 bg-primary mt-3 mb-12 mx-auto"></div>
-      <form action="" method="post" class="grid grid-cols-2 grid-rows-4 gap-4">
-        <input
-          id=""
-          type="text"
-          name=""
-          placeholder="Họ tên"
-          class="
-            col-start-1
-            border-2 border-gray-300
-            focus:border-primary
-            p-2
-          "
-        />
-        <input
-          id=""
-          type="email"
-          name=""
-          placeholder="Email"
-          class="
-            col-start-1
-            border-2 border-gray-300
-            focus:border-primary
-            p-2
-          "
-        />
-        <input
-          id=""
-          type="text"
-          name=""
-          placeholder="Chủ đề"
-          class="
-            col-start-1
-            border-2 border-gray-300
-            focus:border-primary
-            p-2
-          "
-        />
-        <textarea
-          id=""
-          name=""
-          placeholder="Nội dung"
-          class="
-            col-start-2
-            row-start-1 row-span-3
-            border-2 border-gray-300
-            focus:border-primary
-            p-2
-            resize-none
-          "
-        ></textarea>
-        <div class="row-start-4 col-span-2 flex items-center justify-center">
-          <input
-            type="submit"
-            value="Gửi email"
-            class="py-2 px-4 bg-primary hover:bg-shade text-white flex-initials"
-          />
-        </div>
-      </form>
-    </section>
+    <Contact class="px-8 pt-5 pb-10" />
   </main>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import data from '@/static/data/works.json'
+import data1 from '@/static/data/works.json'
+import data2 from '@/static/data/partners.json'
 
 @Component({
   layout: 'default',
@@ -162,6 +63,10 @@ import data from '@/static/data/works.json'
   },
 })
 export default class IndexPage extends Vue {
-  works = data
+  works = data1
+  partners = data2
+  toArrange(array: Array<any>) {
+    return array.length % 2
+  }
 }
 </script>

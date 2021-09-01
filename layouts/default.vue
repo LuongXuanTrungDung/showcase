@@ -1,8 +1,8 @@
 <template>
-  <div class="h-full flex flex-col">
-    <Header class="flex-initials h-16" />
-    <Nuxt class="flex-initials" />
-    <Footer class="flex-initials h-16" />
+  <div>
+    <Header />
+    <Nuxt />
+    <Footer />
   </div>
 </template>
 
