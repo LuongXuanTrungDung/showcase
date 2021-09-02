@@ -1,8 +1,9 @@
 module.exports = {
   purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
+    './components/**/*.{vue,ts}',
+    './partials/**/*.{vue,ts}',
+    './layouts/**/*.{vue,ts}',
+    './pages/**/*.{vue,ts}',
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
   ],
@@ -13,7 +14,7 @@ module.exports = {
         'primary': '#4997d0',
         'complement': '#ffb24f',
         'light': '#f0fbff',
-      }
+      },
     },
   },
   variants: {

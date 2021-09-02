@@ -19,7 +19,7 @@
       </p>
       <h3 class="font-bold text-xl">Các đối tác của tôi</h3>
       <div class="h-1 bg-primary w-1/6 my-2 mb-6"></div>
-      <div class="w-full flex pt-4 ">
+      <div class="w-full flex pt-4">
         <img
           v-for="(p, index) in partners"
           :key="index"
@@ -34,7 +34,7 @@
       <div class="h-1 bg-primary w-1/6 ml-8 mt-2 mb-6"></div>
       <div
         class="bg-light w-full grid gap-8 px-8 py-8"
-        :class="`grid-cols-${works.length} grid-rows-${toArrange(works)}`"
+        :class="`grid-cols-3 grid-rows-${(works.length % 2) + 1}`"
       >
         <Card
           v-for="(w, index) in works"
@@ -44,7 +44,12 @@
           :text="w.text"
           :title="w.title"
         />
-        <div class="bg-complement text-white rounded-md" :class="works.length %3 === 0 ? `col-span-${works.length}`: ''"><p class="py-2 flex justify-center">Và sẽ còn nhiều hơn thế nữa</p></div>
+        <div
+          class="bg-complement text-white rounded-md"
+          :class="works.length % 3 === 0 ? `col-span-3` : ''"
+        >
+          <p class="py-2 flex justify-center">Và sẽ còn nhiều hơn thế nữa</p>
+        </div>
       </div>
     </section>
     <Contact class="px-8 pt-5 pb-10" />
@@ -65,8 +70,5 @@ import data2 from '@/static/data/partners.json'
 export default class IndexPage extends Vue {
   works = data1
   partners = data2
-  toArrange(array: Array<any>) {
-    return array.length % 2
-  }
 }
 </script>
