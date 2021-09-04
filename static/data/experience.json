@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Sinh viên",
+    "subtitle": "Chuyên ngành Thiết kế Web - Trường Cao đẳng FPT Polytechnic",
+    "starting": 2019,
+"partner": "fpt-polytechnic.jpg",
+    "desc": [
+      "Được đào tạo các kỹ năng về thiết kế web",
+	"Được đào tạo các kỹ năng mềm, như làm việc nhóm và marketing cơ bản",
+      "Được đào tạo các kiến thức về lập trình web",
+	"Được đào tạo các kiến thức về cơ sở dữ liệu",
+	"Tham gia các hoạt động tập thể với lớp",
+      "Tự học và thực hành sử dụng các công cụ phát triển web"
+    ],
+"actions":["fpt-1.jpg","fpt-2.jpg","fpt-3.jpg","fpt-4.jpg","fpt-5.jpg","fpt-6.jpg"]
+  },
+  {
+    "title": "Thực tập sinh",
+    "subtitle": "Công ty Cổ phần Công nghệ Quốc tế VNA (VNA Group)",
+    "starting": 2021,
+"partner": "vna-group.png",
+    "desc": [
+      "Trau dồi kinh nghiệm và áp dụng kiến thức đã học vào dự án thực tế",
+      "Đảm nhận vai trò xây dựng và quản trị CSDL",
+	"Đảm nhận vai trò xây dựng hệ thống server và các API tương tác với dữ liệu",
+      "Có cơ hội tìm hiểu thêm về cách làm việc nhóm và các dịch vụ host web, như Netlify và Heroku"
+    ],
+"actions":["vna-1.png","vna-2.png","vna-3.png","vna-4.png","vna-5.png","vna-6.png"]
+  }
+]
