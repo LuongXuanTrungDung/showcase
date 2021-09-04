@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header class="fixed top-0 w-full z-10" />
     <Nuxt />
     <Footer />
   </div>
@@ -12,5 +12,5 @@ import { Vue, Component } from 'vue-property-decorator'
 @Component({
   name: 'default',
 })
-export default class HomeLayout extends Vue {}
+export default class DefaultLayout extends Vue {}
 </script>

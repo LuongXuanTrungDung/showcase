@@ -15,6 +15,9 @@ module.exports = {
         'complement': '#ffb24f',
         'light': '#f0fbff',
       },
+      spacing: {
+        '22': '5.5rem'
+      }
     },
   },
   variants: {

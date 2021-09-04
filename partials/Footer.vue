@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-black text-white">
-    <nav class="flex px-8 py-4">
+    <nav class="flex px-20 py-5">
       <ul class="flex flex-initals mr-auto justify-center">
         <li class="flex-initals mr-2 my-1">
           <i class="fas fa-envelope mr-2"></i>

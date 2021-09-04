@@ -5,3 +5,8 @@
 # 1.0.0
 - Điều chỉnh lại bố cục trang chủ
 - Hoàn thiện nội dung cho trang chủ
+
+# 1.1.0
+- Thêm phần Banner
+- Điều chỉnh bố cục phần About và các thay đổi nhỏ ở các phần khác
+- Thêm nội dung và hình ảnh
