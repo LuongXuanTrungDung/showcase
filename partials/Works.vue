@@ -9,23 +9,6 @@
       class="bg-light w-full grid gap-8 px-20 py-10"
       :class="`grid-cols-3 grid-rows-${works.length % 2}`"
     >
-      <form action="" method="get" class="py-4 col-span-3 flex">
-        <input
-          type="search"
-          class="
-            w-2/3
-            bg-gray-200
-            focus:bg-white
-            rounded-md
-            py-2
-            px-4
-            hover:border-primary
-            focus:border-primary
-            mr-2
-          "
-          placeholder="Tìm kiếm"
-        />
-      </form>
       <Card
         v-for="(w, index) in works"
         :key="index"

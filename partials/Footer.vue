@@ -2,11 +2,11 @@
   <footer class="bg-black text-white">
     <nav class="flex px-20 py-5">
       <ul class="flex flex-initals mr-auto justify-center">
-        <li class="flex-initals mr-2 my-1">
+        <li class="flex-initals mr-2 leading-7">
           <i class="fas fa-envelope mr-2"></i>
           <a href="" class="hover:text-complement">example@nullmail.com</a>
         </li>
-        <li class="flex-initals mx-2 my-1">
+        <li class="flex-initals mx-2 leading-7">
           <i class="fas fa-phone mr-2"></i>
           <a href="" class="hover:text-complement">(+84) 123-456-7890</a>
         </li>

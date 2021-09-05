@@ -37,7 +37,9 @@
           />
         </div>
         <div class="flex-initials mt-2">
-          <p v-for="(d, kindex) in x.desc" :key="kindex">{{ d }}</p>
+          <p v-for="(d, kindex) in x.desc" :key="kindex">
+            <i class="fas fa-circle text-sm text-primary mr-2"></i> {{ d }}
+          </p>
         </div>
       </div>
       <div class="flex-initials w-1/2 ml-4">

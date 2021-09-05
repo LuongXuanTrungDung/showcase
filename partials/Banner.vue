@@ -4,7 +4,7 @@
       <div class="w-1/3 flex-initials mr-4 flex flex-col justify-center">
         <div class="flex flex-col justify-center flex-initials">
           <h1 class="text-4xl font-bold">Xin chào, tôi là Dũng</h1>
-          <div class="h-1 bg-complement w-1/5 mt-2 ml-auto mr-24"></div>
+          <div class="h-1 bg-complement w-1/5 mt-2 ml-auto mr-16"></div>
         </div>
         <p class="mt-4 text-justify text-lg">
           Nhà phát triển web full-stack đến từ Thành phố Hồ Chí Minh, Việt Nam,
@@ -14,8 +14,31 @@
         </p>
       </div>
 
-      <div class="w-1/3 flex-initials ml-4 flex">
+      <div class="w-1/6 flex-initials mx-4 flex justify-center items-center">
         <img src="portrait.jpg" class="w-48 h-48 rounded-full" />
+      </div>
+
+      <div class="w-1/3 flex-initials ml-4 flex flex-col justify-center">
+        <p class="text-lg mb-2 font-bold">
+          <i class="fas fa-window-maximize text-primary mr-2"></i>
+          Tôi lập trình web
+        </p>
+        <p class="text-lg my-2 font-bold">
+          <i class="fas fa-database text-primary mr-2"></i>
+          Tôi xây dựng cơ sở dữ liệu
+        </p>
+        <p class="text-lg my-2 font-bold">
+          <i class="fas fa-server text-primary mr-2"></i>
+          Tôi phát triển hệ thống
+        </p>
+        <p class="text-lg my-2 font-bold">
+          <i class="fas fa-paragraph text-primary mr-2"></i>
+          Tôi sáng tạo nội dung
+        </p>
+        <p class="text-lg mt-2 font-bold">
+          <i class="fas fa-palette text-primary mr-2"></i>
+          Tôi thiết kế mỹ thuật
+        </p>
       </div>
     </div>
   </section>
