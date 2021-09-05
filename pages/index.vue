@@ -1,9 +1,9 @@
 <template>
   <main>
-    <Banner class="mt-22 py-10" />
-    <About id="gioi-thieu" class="py-10" />
-    <Works id="san-pham" class="py-10" />
-    <Contact id="lien-he" class="px-20 py-10" />
+    <Banner class="py-20" />
+    <About id="gioi-thieu" class="py-20" />
+    <Works id="san-pham" class="py-20" />
+    <Contact id="lien-he" class="p-20" />
   </main>
 </template>
 

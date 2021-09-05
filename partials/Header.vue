@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-primary text-white">
-    <nav class="flex px-20 py-5 items-center">
+  <header>
+    <nav class="bg-primary text-white flex px-20 py-5 items-center">
       <li class="flex-initals mr-4">
         <a href="/">
           <img src="logo.png" class="w-12 h-12" />
