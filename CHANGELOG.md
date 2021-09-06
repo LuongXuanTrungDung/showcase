@@ -10,3 +10,8 @@
 - Thêm phần Banner
 - Điều chỉnh bố cục phần About và các thay đổi nhỏ ở các phần khác
 - Thêm nội dung và hình ảnh
+
+# 1.1.1
+- Thêm tính năng đổi màu sáng / tối
+- Điều chỉnh các phần theo tính năng trên
+- Thêm logo sáng / tối

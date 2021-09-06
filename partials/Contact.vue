@@ -14,6 +14,7 @@
               px-4
               mb-2
               bg-gray-200
+              dark:bg-gray-700
               focus:bg-white
               w-full
               focus:border-primary
@@ -29,6 +30,7 @@
               my-2
               w-full
               bg-gray-200
+              dark:bg-gray-700
               focus:bg-white
               focus:border-primary
               rounded-md
@@ -43,6 +45,7 @@
               w-full
               mt-2
               bg-gray-200
+              dark:bg-gray-700
               focus:bg-white
               focus:border-primary
               rounded-md
@@ -59,6 +62,7 @@
             w-full
             px-4
             bg-gray-200
+            dark:bg-gray-700
             focus:bg-white
             focus:border-primary
             rounded-md
@@ -79,6 +83,8 @@
             px-4
             mx-auto
             hover:bg-complement
+            dark:bg-shade
+            dark-hover:bg-dark
           "
           value="Gửi liên hệ"
         />

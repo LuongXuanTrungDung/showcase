@@ -2,11 +2,11 @@
   <section>
     <div class="flex flex-col items-center justify-center py-5">
       <h3 class="font-bold text-xl">Những gì tôi làm được</h3>
-      <div class="h-1 bg-primary w-1/6 mt-2"></div>
+      <div class="h-1 bg-primary dark:bg-shade w-1/6 mt-2"></div>
     </div>
 
     <div
-      class="bg-light w-full grid gap-8 px-20 py-10"
+      class="w-full grid gap-8 px-20 py-10"
       :class="`grid-cols-3 grid-rows-${works.length % 2}`"
     >
       <Card

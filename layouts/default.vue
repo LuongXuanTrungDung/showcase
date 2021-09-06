@@ -14,3 +14,13 @@ import { Vue, Component } from 'vue-property-decorator'
 })
 export default class DefaultLayout extends Vue {}
 </script>
+
+<style>
+    .dark-mode {
+        @apply text-white bg-black;
+    }
+
+    .light-mode {
+        @apply text-black bg-white;
+    }
+</style>

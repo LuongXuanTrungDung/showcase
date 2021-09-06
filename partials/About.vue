@@ -2,20 +2,19 @@
   <section>
     <div class="flex flex-col items-center justify-center pt-10 pb-5">
       <h3 class="font-bold text-xl">Từ quá khứ đến hiện tại</h3>
-      <div class="h-1 bg-primary w-1/6 mt-2"></div>
+      <div class="h-1 bg-primary dark:bg-shade w-1/6 mt-2"></div>
     </div>
-    <div
-      v-for="(x, index) in exp"
-      :key="index"
-      class="flex px-20 py-10 bg-light"
-    >
-      <div class="flex-initials flex mr-4 bg-primary rounded-t-full">
+    <div v-for="(x, index) in exp" :key="index" class="flex px-20 py-10">
+      <div
+        class="flex-initials flex mr-4 bg-primary dark:bg-shade rounded-t-full"
+      >
         <div
           class="
             rounded-full
             w-12
             h-12
-            bg-complement
+            bg-primary
+            dark:bg-shade
             flex
             justify-center
             items-center
