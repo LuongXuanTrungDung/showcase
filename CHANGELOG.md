@@ -15,3 +15,7 @@
 - Thêm tính năng đổi màu sáng / tối
 - Điều chỉnh các phần theo tính năng trên
 - Thêm logo sáng / tối
+
+# 1.1.2
+- Thêm AOS (hiệu ứng khi kéo)
+- Thay đổi bố cục phần Work
