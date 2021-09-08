@@ -1,7 +1,7 @@
 [
   {
     "title": "Sinh viên",
-    "subtitle": "Chuyên ngành Thiết kế Web - Trường Cao đẳng FPT Polytechnic",
+    "subtitle": "Ngành Thiết kế Web - Trường Cao đẳng FPT Polytechnic",
     "starting": 2019,
 "partner": "fpt-polytechnic.jpg",
     "desc": [
@@ -22,9 +22,9 @@
     "desc": [
       "Trau dồi kinh nghiệm và áp dụng kiến thức đã học vào dự án thực tế",
       "Đảm nhận vai trò xây dựng và quản trị CSDL",
-	"Đảm nhận vai trò xây dựng hệ thống server và các API tương tác với dữ liệu",
+	"Đảm nhận vai trò xây dựng hệ thống server", "Đảm nhận viết các API và logic tương tác với dữ liệu",
       "Có cơ hội tìm hiểu thêm về cách làm việc nhóm và các dịch vụ host web, như Netlify và Heroku"
     ],
-"actions":["vna-1.png","vna-2.png","vna-3.png","vna-4.png","vna-5.png","vna-6.png"]
+"actions":["vna-1.png","vna-2.png","vna-3.png","vna-4.png","vna-5.jpg","vna-6.jpg"]
   }
 ]
