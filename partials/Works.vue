@@ -1,6 +1,10 @@
 <template>
   <section>
-    <div class="flex flex-col items-center justify-center py-5">
+    <div
+      class="flex flex-col items-center justify-center py-5"
+      data-aos="fade-down"
+      data-aos-duration="1750"
+    >
       <h3 class="font-bold text-xl">Những gì tôi làm được</h3>
       <div class="h-1 bg-primary dark:bg-shade w-1/6 mt-2"></div>
     </div>
@@ -16,6 +20,8 @@
         :tags="w.tags"
         :text="w.text"
         :title="w.title"
+        data-aos="fade-up"
+        data-aos-duration="2000"
       />
     </div>
   </section>

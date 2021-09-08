@@ -4,38 +4,24 @@
       <ul class="flex flex-initals mr-auto justify-center">
         <li class="flex-initals mr-2 leading-7">
           <i class="fas fa-envelope mr-2"></i>
-          <a href="" class="hover:text-complement dark-hover:text-shade"
-            >example@nullmail.com</a
-          >
+          <a href="" class="hover:text-shade">example@nullmail.com</a>
         </li>
         <li class="flex-initals mx-2 leading-7">
           <i class="fas fa-phone mr-2"></i>
-          <a href="" class="hover:text-complement dark-hover:text-shade"
-            >(+84) 123-456-7890</a
-          >
+          <a href="" class="hover:text-shade">(+84) 123-456-7890</a>
         </li>
         <li class="flex-initals mx-2">
-          <a
-            href=""
-            class="text-xl"
-            class="hover:text-complement dark-hover:text-shade"
+          <a href="" class="text-xl hover:text-shade"
             ><i class="fab fa-instagram"></i
           ></a>
         </li>
         <li class="flex-initals mx-2">
-          <a
-            href=""
-            class="text-xl"
-            class="hover:text-complement dark-hover:text-shade"
+          <a href="" class="text-xl hover:text-shade"
             ><i class="fab fa-linkedin"></i
           ></a>
         </li>
         <li class="flex-initals ml-2">
-          <a
-            href=""
-            class="text-xl"
-            class="hover:text-complement dark-hover:text-shade"
-          >
+          <a href="" class="text-xl hover:text-shade">
             <i class="fab fa-github"></i
           ></a>
         </li>

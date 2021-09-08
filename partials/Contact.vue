@@ -1,12 +1,20 @@
 <template>
   <section>
-    <div class="flex flex-col items-center justify-center pt-10 pb-5">
+    <div
+      class="flex flex-col items-center justify-center pt-10 pb-5"
+      data-aos="fade-down"
+      data-aos-duration="1750"
+    >
       <h3 class="font-bold text-xl">Nếu có nhu cầu, hãy liên hệ với tôi</h3>
       <div class="h-1 bg-primary w-1/6 mt-2"></div>
     </div>
     <form class="my-2">
       <div class="flex mb-4">
-        <div class="flex-initials w-1/4 mr-2">
+        <div
+          class="flex-initials w-1/4 mr-2"
+          data-aos="fade-right"
+          data-aos-duration="1750"
+        >
           <input
             type="text"
             class="
@@ -15,6 +23,7 @@
               mb-2
               bg-gray-200
               dark:bg-gray-700
+              dark-focus:border-shade
               focus:bg-white
               w-full
               focus:border-primary
@@ -33,6 +42,7 @@
               dark:bg-gray-700
               focus:bg-white
               focus:border-primary
+              dark-focus:border-shade
               rounded-md
             "
             placeholder="Số điện thoại"
@@ -48,6 +58,7 @@
               dark:bg-gray-700
               focus:bg-white
               focus:border-primary
+              dark-focus:border-shade
               rounded-md
             "
             placeholder="Email"
@@ -65,10 +76,13 @@
             dark:bg-gray-700
             focus:bg-white
             focus:border-primary
+            dark-focus:border-shade
             rounded-md
             resize-none
           "
           placeholder="Nội dung"
+          data-aos="fade-right"
+          data-aos-duration="1750"
         ></textarea>
       </div>
 
@@ -82,11 +96,12 @@
             py-2
             px-4
             mx-auto
-            hover:bg-complement
-            dark:bg-shade
-            dark-hover:bg-dark
+            hover:bg-shade
+            dark:bg-dark
           "
           value="Gửi liên hệ"
+          data-aos="fade-up"
+          data-aos-duration="1750"
         />
       </div>
     </form>

@@ -3,6 +3,9 @@
     <Header class="fixed top-0 w-full z-10" />
     <Nuxt class="my-22" />
     <Footer />
+    <script>
+      AOS.init()
+    </script>
   </div>
 </template>
 
@@ -16,11 +19,11 @@ export default class DefaultLayout extends Vue {}
 </script>
 
 <style>
-    .dark-mode {
-        @apply text-white bg-black;
-    }
+.dark-mode {
+  @apply text-white bg-black;
+}
 
-    .light-mode {
-        @apply text-black bg-white;
-    }
+.light-mode {
+  @apply text-black bg-white;
+}
 </style>

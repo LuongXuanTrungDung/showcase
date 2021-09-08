@@ -15,14 +15,17 @@ module.exports = {
     darkSelector: '.dark-mode',
     extend: {
       colors: {
-        'primary': '#4997d0',
-        'complement': '#ffb24f',
-        'light': '#f0fbff',
-        'dark': '#002366',
-        'shade': '#007ba7'
+        'primary': '#4998d0',
+        'dark': '#096aae',
+        'light': '#9ecdee',
+        'shade': '#2481c0'
       },
       spacing: {
         '22': '5.5rem'
+      },
+      zIndex: {
+        '0': 0,
+        '1': 1
       }
     },
   },
