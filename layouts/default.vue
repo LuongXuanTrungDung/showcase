@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header class="fixed top-0 w-full z-10" />
-    <Nuxt class="my-22" />
+    <Header class="fixed top-0 w-screen sm:w-full z-10" />
+    <Nuxt class="my-20 sm:my-22" />
     <Footer />
     <script>
       AOS.init()
