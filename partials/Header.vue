@@ -14,8 +14,6 @@
     >
       <li
         class="flex-initals mr-auto sm:mr-4"
-        data-aos="fade-right"
-        data-aos-duration="1750"
       >
         <a href="/">
           <img src="logo.png" class="sm:w-12 sm:h-12 w-8 h-8" />
@@ -25,34 +23,28 @@
       <ul class="hidden sm:flex items-center">
         <li
           class="flex-initals mx-2"
-          data-aos="fade-right"
-          data-aos-duration="1750"
         >
           <a
             href="#gioi-thieu"
-            class="px-4 py-2 font-bold rounded-md hover:bg-shade"
+            class="px-4 py-2 font-bold rounded-md hover:bg-shade dark-hover:bg-light"
             >Giới thiệu</a
           >
         </li>
         <li
           class="flex-initals mx-2"
-          data-aos="fade-right"
-          data-aos-duration="1750"
         >
           <a
             href="#san-pham"
-            class="px-4 py-2 font-bold rounded-md hover:bg-shade"
+            class="px-4 py-2 font-bold rounded-md hover:bg-shade dark-hover:bg-light"
             >Sản phẩm</a
           >
         </li>
         <li
           class="flex-initals ml-2"
-          data-aos="fade-right"
-          data-aos-duration="1750"
         >
           <a
             href="#lien-he"
-            class="py-2 px-4 font-bold rounded-md hover:bg-shade"
+            class="py-2 px-4 font-bold rounded-md hover:bg-shade dark-hover:bg-light"
             >Liên hệ</a
           >
         </li>
@@ -60,8 +52,6 @@
 
       <ul
         class="flex-initals ml-auto mr-auto sm:mr-0 flex"
-        data-aos="fade-right"
-        data-aos-duration="1750"
       >
         <li class="flex-initials mr-2">
           <button
@@ -90,14 +80,50 @@
         </li>
       </ul>
 
-      <li
+      <ul
         class="flex-initals ml-auto sm:hidden"
-        data-aos="fade-right"
-        data-aos-duration="1750"
       >
-        <button><i class="fas fa-bars text-xl"></i></button>
-      </li>
+        <button @click="">
+		<i v-if="!isToggle" class="fas fa-bars text-xl" @click="isToggle=true"></i>
+		<i v-if="isToggle" class="fas fa-times text-xl" @click="isToggle=false"></i>
+	</button>
+      </ul>
     </nav>
+      <nav v-if="isToggle" class="        bg-primary
+        dark:bg-dark
+        text-white
+
+w-1/2 ml-auto">
+	<ul class="p-10         flex flex-col         justify-center">
+        <li
+          class="flex-initals mb-2"
+        >
+          <a
+            href="#gioi-thieu"
+            class="py-2 font-bold rounded-md hover:bg-shade dark-hover:bg-light"
+            >Giới thiệu</a
+          >
+        </li>
+        <li
+          class="flex-initals my-2"
+        >
+          <a
+            href="#san-pham"
+            class="py-2 font-bold rounded-md hover:bg-shade dark-hover:bg-light"
+            >Sản phẩm</a
+          >
+        </li>
+        <li
+          class="flex-initals mt-2"
+        >
+          <a
+            href="#lien-he"
+            class="py-2 font-bold rounded-md hover:bg-shade dark-hover:bg-light"
+            >Liên hệ</a
+          >
+        </li>
+</ul>
+      </nav>
   </header>
 </template>
 
@@ -105,5 +131,7 @@
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
-export default class Header extends Vue {}
+export default class Header extends Vue {
+isToggle=false
+}
 </script>

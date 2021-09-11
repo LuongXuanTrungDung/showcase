@@ -17,5 +17,4 @@
 - Thêm logo sáng / tối
 
 # 1.1.2
-- Thêm AOS (hiệu ứng khi kéo)
-- Thay đổi bố cục phần Work
+- Thay đổi bố cục các phần để tương thích với các thiết bị khác nhau (responsive)

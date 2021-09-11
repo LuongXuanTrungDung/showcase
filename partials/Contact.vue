@@ -2,18 +2,14 @@
   <section>
     <div
       class="flex flex-col items-center justify-center pt-10 pb-5"
-      data-aos="fade-down"
-      data-aos-duration="1750"
     >
-      <h3 class="font-bold text-xl">Nếu có nhu cầu, hãy liên hệ với tôi</h3>
+      <h3 class="font-bold text-xl text-center">Nếu có nhu cầu, hãy liên hệ với tôi</h3>
       <div class="h-1 bg-primary w-1/6 mt-2"></div>
     </div>
     <form class="my-2">
-      <div class="flex mb-4">
+      <div class="flex flex-col sm:flex-row mb-4">
         <div
-          class="flex-initials w-1/4 mr-2"
-          data-aos="fade-right"
-          data-aos-duration="1750"
+          class="flex-initials w-full md:w-1/2 lg:w-1/4 mb-4 sm:mb-0 sm:mr-2"
         >
           <input
             type="text"
@@ -66,11 +62,13 @@
         </div>
         <textarea
           class="
-            w-3/4
             flex-initials
-            ml-2
+	my-2
+sm:my-0
+            md:ml-2
             py-2
-            w-full
+            w-full 
+h-32 sm:h-auto
             px-4
             bg-gray-200
             dark:bg-gray-700
@@ -81,8 +79,6 @@
             resize-none
           "
           placeholder="Nội dung"
-          data-aos="fade-right"
-          data-aos-duration="1750"
         ></textarea>
       </div>
 
@@ -100,8 +96,6 @@
             dark:bg-dark
           "
           value="Gửi liên hệ"
-          data-aos="fade-up"
-          data-aos-duration="1750"
         />
       </div>
     </form>
