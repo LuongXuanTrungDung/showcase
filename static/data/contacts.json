@@ -1,0 +1,14 @@
+{
+  "email": "luongxuantrungdung211@gmail.com",
+  "telephone": "(+84)93-436-8160",
+  "social": [
+    {
+      "logo":"fab fa-github",
+      "link": "https://github.com/LuongXuanTrungDung"
+    },
+    {
+      "logo":"fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/adrian-luong-3a3a99202/"
+    }
+  ]
+}

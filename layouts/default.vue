@@ -1,11 +1,9 @@
 <template>
   <div>
-    <Header class="fixed top-0 w-screen sm:w-full z-2"/>
+    <Header class="fixed top-0 w-screen sm:w-full z-2" />
     <Nuxt class="my-16 sm:my-22" />
     <Footer />
-    <script>
-      
-    </script>
+    <script></script>
   </div>
 </template>
 

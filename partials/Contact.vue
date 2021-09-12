@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div
-      class="flex flex-col items-center justify-center pt-10 pb-5"
-    >
-      <h3 class="font-bold text-xl text-center">Nếu có nhu cầu, hãy liên hệ với tôi</h3>
+    <div class="flex flex-col items-center justify-center pt-10 pb-5">
+      <h3 class="font-bold text-xl text-center">
+        Nếu có nhu cầu, hãy liên hệ với tôi
+      </h3>
       <div class="h-1 bg-primary w-1/6 mt-2"></div>
     </div>
     <form class="my-2">
@@ -63,12 +63,13 @@
         <textarea
           class="
             flex-initials
-	my-2
-sm:my-0
+            my-2
+            sm:my-0
             md:ml-2
             py-2
-            w-full 
-h-32 sm:h-auto
+            w-full
+            h-32
+            sm:h-auto
             px-4
             bg-gray-200
             dark:bg-gray-700

@@ -1,9 +1,7 @@
 <template>
   <section class="bg-gray-500 text-white">
     <div class="px-10 md:px-20 py-5 md:py-10 flex flex-col">
-      <div
-        class="w-full flex-initials mb-4 flex flex-col"
-      >
+      <div class="w-full flex-initials mb-4 flex flex-col">
         <img
           src="portrait.jpg"
           class="flex-initials mx-auto mb-4 w-48 h-48 rounded-full"
@@ -23,9 +21,7 @@
         data-aos-duration="1750"
       >
         <div class="w-full sm:w-1/2 flex-initials sm:mr-4 sm:mb-0 mb-4">
-          <p
-            class="text-justify text-lg"
-          >
+          <p class="text-justify text-lg">
             Tôi là một nhà phát triển web full-stack đến từ Thành phố Hồ Chí
             Minh, Việt Nam, với mong muốn tạo ra các sản phẩm được thiết kế khoa
             học và có tính nghệ thuật, để mang đến những trải nghiệm tiện lợi và

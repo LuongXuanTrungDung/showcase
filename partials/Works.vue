@@ -16,7 +16,7 @@
         :tags="w.tags"
         :text="w.text"
         :title="w.title"
-	class="lg:my-0 my-4"
+        class="lg:my-0 my-4"
       />
     </div>
   </section>
