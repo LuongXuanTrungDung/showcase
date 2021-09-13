@@ -18,3 +18,9 @@
 
 # 1.1.2
 - Thay đổi bố cục các phần để tương thích với các thiết bị khác nhau (responsive)
+- Điều chỉnh data cho phần About
+
+# 1.1.3
+- Tạo data cho thông tin liên lạc
+- Thêm phần tải trang
+- Thêm trang xác nhận sau khi gửi liên hệ (chưa thể gửi được liên hệ)

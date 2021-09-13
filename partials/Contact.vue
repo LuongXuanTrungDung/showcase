@@ -6,7 +6,7 @@
       </h3>
       <div class="h-1 bg-primary w-1/6 mt-2"></div>
     </div>
-    <form class="my-2">
+    <form class="my-2" method="POST" @submit.prevent="onSubmit()">
       <div class="flex flex-col sm:flex-row mb-4">
         <div
           class="flex-initials w-full md:w-1/2 lg:w-1/4 mb-4 sm:mb-0 sm:mr-2"
@@ -41,7 +41,7 @@
               dark-focus:border-shade
               rounded-md
             "
-            placeholder="Số điện thoại"
+            placeholder="Chủ đề"
           />
           <input
             type="email"
@@ -102,3 +102,14 @@
     </form>
   </section>
 </template>
+
+<script lang="ts">
+import { Vue, Component } from 'vue-property-decorator'
+
+@Component
+export default class Contact extends Vue {
+  onSubmit() {
+    this.$router.push('/contacted')
+  }
+}
+</script>
