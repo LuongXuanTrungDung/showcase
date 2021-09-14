@@ -24,3 +24,7 @@
 - Tạo data cho thông tin liên lạc
 - Thêm phần tải trang
 - Thêm trang xác nhận sau khi gửi liên hệ (chưa thể gửi được liên hệ)
+
+# 1.1.4
+- Thêm data cho phần Work
+- Điều chỉnh bố cục phần Work

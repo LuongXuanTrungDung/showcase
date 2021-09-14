@@ -1,6 +1,6 @@
 <template>
   <div class="shadow-xl bg-white border-light dark:bg-black border">
-    <img :src="`works/${image}`" alt="" />
+    <img class="w-full h-1/2" :src="`works/${image}`" />
     <div class="`text-justify p-8 bg-white dark:bg-black">
       <h3 class="text-xl font-bold">{{ title }}</h3>
       <div class="flex mt-2 mb-4">
@@ -12,7 +12,7 @@
           >{{ t }}</small
         >
       </div>
-      <p>{{ text }}</p>
+      <p class="text-justify">{{ text }}</p>
     </div>
   </div>
 </template>

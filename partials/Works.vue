@@ -7,7 +7,7 @@
 
     <div
       class="w-full lg:grid lg:gap-8 px-10 lg:px-20 py-5 lg:py-10 flex flex-col"
-      :class="`lg:grid-cols-3 lg:grid-rows-${works.length % 2}`"
+      :class="`grid-cols-${arrangeCol} grid-rows-${works.length / 2}`"
     >
       <Card
         v-for="(w, index) in works"
@@ -29,5 +29,6 @@ import data from '@/static/data/works.json'
 @Component
 export default class Works extends Vue {
   works = data
+  arrangeCol = this.works.length === 4 ? 2 : 3
 }
 </script>
